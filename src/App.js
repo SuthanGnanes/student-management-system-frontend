@@ -4,6 +4,7 @@ import FooterComponent from './components/FooterComponent';
 import HeaderComponent from './components/HeaderComponent';
 import ListStudentsComponents from './components/ListStudentsComponents';
 import CreateStudentComponent from './components/CreateStudentComponent';
+import CreateClassComponent from './components/CreateClassComponent';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
               <Route path ='/' element = {<ListStudentsComponents/>}/>
               <Route path ='/students' element = {<ListStudentsComponents/>}/>
               <Route path ='/add-student' element = {<CreateStudentComponent/>}/>
+              <Route path ='/add-class' element = {<CreateClassComponent/>}/>
             </Routes>
           </div>
         <FooterComponent/>
