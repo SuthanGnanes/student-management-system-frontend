@@ -12,6 +12,10 @@ class StudentsService{
     createStudent(student){
         return axios.post(STUDENT_BASE_API_URL, student);
     }
+
+    updateStudents(students){
+        return axios.put(STUDENTS_BASE_API_URL, students);
+    }
 }
 
 export default new StudentsService()

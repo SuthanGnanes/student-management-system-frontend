@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const FooterComponent = () => {
-    return (
-        <div>
-            <footer className='footer'>
-                <span className='text-muted'>Developed by Umasuthan</span>
-            </footer>
-        </div>
-    );
-}
+  return (
+    <div>
+      <footer className="footer">
+        <span className="text-muted">Developed by Umasuthan</span>
+      </footer>
+    </div>
+  );
+};
 
 export default FooterComponent;

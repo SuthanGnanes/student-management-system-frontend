@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-const HeaderComponent =() => {
-    return (
-        <div>
-            <header>
-                <nav className='navbar navbar-expand-md navbar-dark bg-dark'>
-                    <div className='navbar-brand'> Student Management System</div>
-                </nav>
-            </header>
-        </div>
-    );
-}
+const HeaderComponent = () => {
+  return (
+    <div>
+      <header>
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+          <div className="navbar-brand"> Student Management System</div>
+        </nav>
+      </header>
+    </div>
+  );
+};
 export default HeaderComponent;

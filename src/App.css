@@ -51,3 +51,12 @@
   max-height: 200px;
   overflow-y: auto;
 }
+
+.spacing{
+  padding: 50px;
+}
+
+.btn-space{
+  margin-left: 10px;
+  margin-right: 10px;
+}
